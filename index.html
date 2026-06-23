@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TradiSea</title>
+  <meta name="description" content="TradiSea adalah Cafe and Resto di Situbondo yang memadukan kuliner Nusantara, penginapan berkarakter, kebun mandiri, dan komitmen keberlanjutan." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="TradiSea Home">
+        <img class="nav-logo-img" src="assets/logo-TradiSea.png" alt="TradiSea" />
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Navigasi utama">
+        <a href="#tentang" class="nav-link" data-key="nav_about">Tentang Kami</a>
+        <a href="#resto" class="nav-link" data-key="nav_resto">Resto</a>
+        <a href="#kamar" class="nav-link" data-key="nav_kamar">Kamar</a>
+        <a href="#kebun" class="nav-link" data-key="nav_kebun">Kebun</a>
+        <a href="#komitmen" class="nav-link" data-key="nav_komitmen">Komitmen Kami</a>
+        <a href="#kunjungi" class="nav-link" data-key="nav_kunjungi">Kunjungi Kami</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+          <span class="lang-id active-lang">ID</span>
+          <span class="lang-divider">/</span>
+          <span class="lang-en">EN</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Buka menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-video" aria-hidden="true">
+      <video
+        class="hero-video-el"
+        src="assets/Tradisea-The-Movie.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+      ></video>
+    </div>
+
+    <div class="hero-bg-overlay"></div>
+
+    <div class="hero-content">
+
+      <p class="hero-eyebrow" data-key="hero_eyebrow">Situbondo, Jawa Timur</p>
+      <h1 class="hero-title">
+        <span class="hero-title-trad">Tradi</span><span class="hero-title-sea">Sea</span>
+      </h1>
+      <p class="hero-tagline" data-key="hero_tagline">Berawal dari Tradisi<br/>Menuju Inovasi Berkelanjutan</p>
+      <p class="hero-sub" data-key="hero_sub">Cafe &amp; Resto · Penginapan · Kebun · Keberlanjutan</p>
+      <div class="hero-cta">
+        <a href="#resto" class="btn btn-primary" data-key="hero_cta1">Jelajahi Layanan</a>
+        <a href="#kunjungi" class="btn btn-outline" data-key="hero_cta2">Kunjungi Kami</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span class="scroll-line"></span>
+    </div>
+    <div class="wave-divider hero-wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#F7F3EE"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG KAMI ===== -->
+  <section class="section section-cream" id="tentang">
+    <div class="container">
+      <div class="section-label" data-key="about_label">Tentang Kami</div>
+      <div class="about-layout">
+        <div class="about-text">
+          <h2 class="section-title" data-key="about_title">Tradisi &amp; Laut,<br/>Satu Nama</h2>
+          <p class="section-body" data-key="about_p1">
+            TradiSea lahir dari perpaduan dua kata yang sarat makna: <strong>Tradition</strong> dan <strong>Sea</strong>. Sebuah nama yang merangkum warisan keluarga, cita rasa lokal, kedekatan dengan alam pesisir, dan komitmen kami terhadap masa depan yang berkelanjutan.
+          </p>
+          <p class="section-body" data-key="about_p2">
+            Kami bukan sekadar tempat makan dan menginap. TradiSea adalah ruang di mana tradisi bertemu inovasi di setiap hidangan yang kami sajikan, di setiap sudut kamar yang kami rawat, dan di setiap jengkal kebun yang kami jaga.
+          </p>
+          <p class="section-body" data-key="about_p3">
+            Di sini, cerita keluarga menjadi resep, bangunan lama menjadi kenangan yang hidup, dan nilai-nilai lokal menjadi kekuatan yang membawa kami ke depan.
+          </p>
+        </div>
+        <div class="about-values">
+          <div class="value-card">
+            <h3 data-key="val1_title">Tradisi</h3>
+            <p data-key="val1_desc">Resep turun-temurun, bangunan bersejarah, dan budaya yang kami jaga dengan penuh rasa hormat.</p>
+          </div>
+          <div class="value-card">
+            <h3 data-key="val2_title">Keberlanjutan</h3>
+            <p data-key="val2_desc">Dari panel surya hingga kebun mandiri, setiap keputusan kami mempertimbangkan alam.</p>
+          </div>
+          <div class="value-card">
+            <h3 data-key="val3_title">Komunitas</h3>
+            <p data-key="val3_desc">Bersama nelayan, petani, dan UMKM lokal — tumbuh bersama adalah cara kami berbisnis.</p>
+          </div>
+          <div class="value-card">
+            <h3 data-key="val4_title">Kehangatan</h3>
+            <p data-key="val4_desc">Suasana yang terasa seperti rumah sendiri, dengan keramahan yang tulus dari hati.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M0,20 C480,60 960,0 1440,30 L1440,60 L0,60 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+  </section>
+
+ <!-- ===== RESTO ===== -->
+  <section class="section section-white" id="resto">
+    <div class="container">
+      <div class="section-label" data-key="resto_label">Restoran</div>
+      <div class="service-layout service-layout--reverse">
+        <div class="service-visual">
+          <div class="resto-photo-pair" aria-label="Galeri Resto">
+            <figure class="resto-photo-item">
+              <img
+                class="resto-photo-img"
+                src="assets/kopiTradiSea.jpg"
+                alt="Kopi TradiSea"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="resto-photo-item">
+              <img
+                class="resto-photo-img"
+                src="assets/makananTradiSea.jpg"
+                alt="Makanan TradiSea"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="service-text">
+          <h2 class="section-title" data-key="resto_title">Dapur yang Berakar<br/>pada Nusantara</h2>
+          <p class="section-body" data-key="resto_p1">
+            Setiap hidangan di TradiSea adalah perjalanan dari kebun dan perairan sekitar Situbondo, langsung ke meja Anda. Bahan-bahan segar kami ambil dari nelayan dan petani lokal yang telah menjadi bagian dari keluarga besar TradiSea.
+          </p>
+          <p class="section-body" data-key="resto_p2">
+            Resep kami mengikuti jejak warisan kuliner Nusantara yang diwariskan turun-temurun, diperkaya dengan bahan dari peternakan ayam cage-free dan kebun sayuran kami sendiri.
+          </p>
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="feature-dot" aria-hidden="true"></span>
+              <span data-key="resto_f1">Bahan segar dari nelayan &amp; petani lokal</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-dot" aria-hidden="true"></span>
+              <span data-key="resto_f2">Resep warisan kuliner Nusantara</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-dot" aria-hidden="true"></span>
+              <span data-key="resto_f3">Didukung hasil kebun &amp; peternakan sendiri</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-dot" aria-hidden="true"></span>
+              <span data-key="resto_f4">Rantai nilai lokal yang berkelanjutan</span>
+            </div>
+          </div>
+          <a href="#kunjungi" class="btn btn-primary" data-key="resto_cta">Hubungi Kami</a>
+        </div>
+      </div>
+    </div>
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M0,30 C360,0 1080,60 1440,20 L1440,60 L0,60 Z" fill="#F7F3EE"/>
+      </svg>
+    </div>
+  </section>
+ 
+  <!-- ===== KAMAR ===== -->
+  <section class="section section-cream" id="kamar">
+    <div class="container">
+      <div class="section-label" data-key="kamar_label">Penginapan</div>
+      <div class="service-layout">
+        <div class="service-text">
+          <h2 class="section-title" data-key="kamar_title">Menginap di Antara<br/>Jejak Waktu</h2>
+          <p class="section-body" data-key="kamar_p1">
+            Kamar-kamar di TradiSea bukan sekadar tempat tidur, ini adalah ruang yang merawat ingatan. Bangunan lama yang dipugar dengan cermat mempertahankan karakternya yang historis, dipadukan dengan sentuhan desain modern yang nyaman.
+          </p>
+          <p class="section-body" data-key="kamar_p2">
+            Kayu lawasan menjadi elemen utama yang menceritakan masa lalu. Batik Situbondo menghiasi setiap sudut sebagai penghormatan pada budaya lokal. Setiap malam menginap adalah bagian dari pelestarian, bukan sekadar istirahat.
+          </p>
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="feature-dot" aria-hidden="true"></span>
+              <span data-key="kamar_f1">Bangunan bersejarah yang dipugar dengan karakter</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-dot" aria-hidden="true"></span>
+              <span data-key="kamar_f2">Elemen kayu lawasan yang autentik</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-dot" aria-hidden="true"></span>
+              <span data-key="kamar_f3">Dekorasi batik Situbondo terkurasi</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-dot" aria-hidden="true"></span>
+              <span data-key="kamar_f4">Pengalaman menginap yang personal &amp; berkarakter</span>
+            </div>
+          </div>
+          <a href="#kunjungi" class="btn btn-primary" data-key="kamar_cta">Informasi Kamar</a>
+        </div>
+        <div class="service-visual">
+          <div class="kamar-photo-pair" aria-label="Galeri Kamar">
+            <figure class="kamar-photo-item">
+              <img
+                class="kamar-photo-img"
+                src="assets/kamar 1.jpg"
+                alt="Kamar 1"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="kamar-photo-item">
+              <img
+                class="kamar-photo-img"
+                src="assets/kamar 2.jpg"
+                alt="Kamar 2"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="kamar-photo-item">
+              <img
+                class="kamar-photo-img"
+                src="assets/kamar 3.jpg"
+                alt="Kamar 3"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="kamar-photo-item">
+              <img
+                class="kamar-photo-img"
+                src="assets/kamar mandi.jpg"
+                alt="Kamar Mandi"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="kamar-photo-item">
+              <img
+                class="kamar-photo-img"
+                src="assets/fasilitasKamar.jpg"
+                alt="Fasilitas Kamar"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M0,10 C480,60 960,0 1440,40 L1440,60 L0,60 Z" fill="#ffffff"/>
+      </svg>
+    </div>
+  </section>
+ 
+  <!-- ===== KEBUN ===== -->
+  <section class="section section-white" id="kebun">
+    <div class="container">
+      <div class="section-label" data-key="kebun_label">Kebun &amp; Peternakan</div>
+      <div class="service-layout service-layout--reverse">
+        <div class="service-visual">
+          <div class="kebun-photo-pair" aria-label="Galeri Kebun">
+            <figure class="kebun-photo-item">
+              <img
+                class="kebun-photo-img"
+                src="assets/telur.jpg"
+                alt="Telur TradiSea"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="kebun-photo-item">
+              <img
+                class="kebun-photo-img"
+                src="assets/cabe.jpg"
+                alt="Cabe TradiSea"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="service-text">
+          <h2 class="section-title" data-key="kebun_title">Dari Kebun Kami,<br/>ke Piring Anda</h2>
+          <p class="section-body" data-key="kebun_p1">
+            Setiap hidangan yang kami sajikan memiliki cerita tentang bagaimana bahan-bahannya ditumbuhkan. Kebun sayuran kami dirawat sesuai kondisi alam setempat sederhana, bertanggung jawab, dan selaras.
+          </p>
+          <p class="section-body" data-key="kebun_p2">
+            Peternakan ayam petelur kami beroperasi secara <em>cage-free</em>, dan kami bangga menjadi anggota <strong>Indonesia Cage-Free Association (ICFA)</strong> — komitmen nyata bahwa kesejahteraan hewan adalah bagian dari nilai kami.
+          </p>
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="feature-dot feature-dot--green" aria-hidden="true"></span>
+              <span data-key="kebun_f1">Peternakan ayam petelur cage-free</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-dot feature-dot--green" aria-hidden="true"></span>
+              <span data-key="kebun_f2">Kebun sayuran sesuai kondisi lingkungan lokal</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-dot feature-dot--green" aria-hidden="true"></span>
+              <span data-key="kebun_f3">Anggota Indonesia Cage-Free Association (ICFA)</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-dot feature-dot--green" aria-hidden="true"></span>
+              <span data-key="kebun_f4">Hubungan selaras dengan alam dan komunitas sekitar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M0,40 C360,0 1080,60 1440,10 L1440,60 L0,60 Z" fill="#1A2E4A"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== KOMITMEN KAMI ===== -->
+  <section class="section section-dark" id="komitmen">
+    <div class="container">
+      <div class="section-label section-label--light" data-key="komitmen_label">Komitmen Kami</div>
+      <div class="komitmen-header">
+        <h2 class="section-title section-title--light" data-key="komitmen_title">Keberlanjutan Adalah Cara Kami<br/>Menghormati Alam dan Sesama</h2>
+        <p class="section-body section-body--light komitmen-intro" data-key="komitmen_intro">
+          Setiap keputusan bisnis kami berpijak pada tiga pilar yang saling menguatkan.
+        </p>
+      </div>
+      <div class="pillar-grid">
+        <div class="pillar-card">
+          <h3 class="pillar-title" data-key="pillar1_title">Lingkungan</h3>
+          <ul class="pillar-list">
+            <li data-key="pillar1_i1">Efisiensi energi &amp; panel surya (PLTS atap)</li>
+            <li data-key="pillar1_i2">Material kayu daur ulang (lawasan)</li>
+            <li data-key="pillar1_i3">Peternakan cage-free &amp; kebun mandiri</li>
+            <li data-key="pillar1_i4">Bahan pangan lokal untuk mengurangi jejak karbon</li>
+          </ul>
+        </div>
+        <div class="pillar-card pillar-card--accent">
+          <h3 class="pillar-title" data-key="pillar2_title">Sosial</h3>
+          <ul class="pillar-list">
+            <li data-key="pillar2_i1">Lapangan kerja &amp; pelatihan bagi warga lokal</li>
+            <li data-key="pillar2_i2">Upah layak untuk seluruh karyawan</li>
+            <li data-key="pillar2_i3">Dukungan untuk nelayan, petani, dan keluarga mereka</li>
+            <li data-key="pillar2_i4">Bantuan untuk anak yatim dan dhuafa</li>
+          </ul>
+        </div>
+        <div class="pillar-card">
+          <h3 class="pillar-title" data-key="pillar3_title">Tata Kelola</h3>
+          <ul class="pillar-list">
+            <li data-key="pillar3_i1">Operasional sesuai regulasi yang berlaku</li>
+            <li data-key="pillar3_i2">Setiap langkah dapat dipertanggungjawabkan</li>
+            <li data-key="pillar3_i3">Transparansi sebagai pondasi kepercayaan</li>
+          </ul>
+        </div>
+      </div>
+      <div class="komitmen-closing">
+        <p class="closing-text" data-key="komitmen_closing">
+          Setiap pembelian adalah kontribusi pada ekonomi lokal. Setiap hidangan adalah perayaan tradisi. Setiap malam menginap adalah bagian dari pelestarian budaya dan lingkungan.
+        </p>
+      </div>
+    </div>
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M0,20 C480,60 960,0 1440,30 L1440,60 L0,60 Z" fill="#F7F3EE"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== KUNJUNGI KAMI ===== -->
+  <section class="section section-cream" id="kunjungi">
+    <div class="container">
+      <div class="section-label" data-key="visit_label">Kunjungi Kami</div>
+      <h2 class="section-title text-center" data-key="visit_title">Kami Menantikan<br/>Kehadiran Anda</h2>
+      <p class="section-body text-center visit-intro" data-key="visit_intro">
+        Hubungi kami untuk reservasi, informasi layanan, atau sekadar ingin tahu lebih banyak tentang TradiSea.
+      </p>
+      <div class="contact-grid">
+        <a href="https://wa.me/620812377887" class="contact-card contact-card--wa" target="_blank" rel="noopener noreferrer" aria-label="Hubungi via WhatsApp">
+          <div class="contact-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.136.564 4.14 1.546 5.873L.057 23.929l6.232-1.467A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.877 9.877 0 01-5.032-1.378l-.361-.214-3.741.981.999-3.648-.235-.374A9.859 9.859 0 012.106 12C2.106 6.58 6.58 2.106 12 2.106S21.894 6.58 21.894 12 17.42 21.894 12 21.894z"/>
+            </svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label" data-key="wa_label">WhatsApp</span>
+            <span class="contact-value">0812 377 887</span>
+          </div>
+          <span class="contact-arrow" aria-hidden="true">→</span>
+        </a>
+        <a href="mailto:admin@tradisea.id" class="contact-card contact-card--email" aria-label="Kirim email ke TradiSea">
+          <div class="contact-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label" data-key="email_label">Email</span>
+            <span class="contact-value">admin@tradisea.id</span>
+          </div>
+          <span class="contact-arrow" aria-hidden="true">→</span>
+        </a>
+        <div class="contact-card contact-card--loc">
+          <div class="contact-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label" data-key="loc_label">Lokasi</span>
+            <span class="contact-value">Situbondo, Jawa Timur</span>
+          </div>
+        </div>
+      </div>
+      <div class="map-embed">
+        <iframe
+          title="Lokasi TradiSea Situbondo"
+          src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3953.7717569990496!2d114.004686!3d-7.707624!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwNDInMjcuNSJTIDExNMKwMDAnMTYuOSJF!5e0!3m2!1sid!2sus!4v1782184261140!5m2!1sid!2sus"
+          loading="lazy"
+          allowfullscreen
+          aria-label="Peta lokasi TradiSea di Situbondo"
+        ></iframe>
+        <div class="map-overlay-label">
+          <span>Situbondo, Jawa Timur, Indonesia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1440 50" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M0,25 C360,50 1080,0 1440,25 L1440,50 L0,50 Z" fill="#1A2E4A"/>
+      </svg>
+    </div>
+      <div class="footer-body">
+      <div class="footer-brand">
+        <img class="footer-logo-img" src="assets/logo-TradiSea.png" alt="TradiSea" />
+        <p class="footer-tagline" data-key="hero_tagline">Berawal dari Tradisi Menuju Inovasi Berkelanjutan</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#tentang" data-key="nav_about">Tentang Kami</a>
+        <a href="#resto" data-key="nav_resto">Resto</a>
+        <a href="#kamar" data-key="nav_kamar">Kamar</a>
+        <a href="#kebun" data-key="nav_kebun">Kebun</a>
+        <a href="#komitmen" data-key="nav_komitmen">Komitmen Kami</a>
+        <a href="#kunjungi" data-key="nav_kunjungi">Kunjungi Kami</a>
+      </div>
+      <div class="footer-bottom">
+        <p data-key="footer_copy">© 2025 TradiSea. Situbondo, Jawa Timur, Indonesia.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
