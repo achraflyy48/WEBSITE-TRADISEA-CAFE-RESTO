@@ -6,7 +6,7 @@
 
 **TradiSea** adalah sebuah landing page premium yang dirancang untuk bisnis kuliner, penginapan berkarakter (*heritage stay*), dan agrowisata berkelanjutan yang berbasis di Situbondo, Jawa Timur. Website ini dirancang dengan pendekatan modern, mengutamakan performa, aksesibilitas, dan fleksibilitas bahasa (bilingual).
 
-🚀 **[Lihat Demo Live](#)** *(Ganti dengan tautan live Vercel/Netlify/GitHub Pages milikmu)*
+🚀 **[Lihat Demo Live](https://tradisea.vercel.app/)**
 
 ---
 
